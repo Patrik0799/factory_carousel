@@ -1,0 +1,88 @@
+h1 {
+    font-family: "Source Sans Pro";
+    color: #134880;
+    font-size: 32px;
+    margin-top: -5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p {
+    font-family: "Source Sans Pro";
+    color: #484A4C;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+img {
+    border-radius: 8px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 70%;
+    margin: 150px auto;
+    height: 450px;
+}
+.carousel {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+}
+.slider1 {
+    height: 50%;
+    display: flex;
+    gap: 10px;
+    transition: all 0.3s;
+}
+.item2 {
+    display: flex;
+}
+.controls {
+    background-color: white;
+    height: 100%;
+    width: 20%;
+    z-index: 1;
+}
+.slider2 {
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    transition: all 0.3s;
+}
+.slider section {
+    height: 200px;
+}
+.lorem-ipsum {
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1;
+}
+.button-prev {
+    border: 1px solid #134880;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.button-next {
+    border: 1px solid #134880;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
