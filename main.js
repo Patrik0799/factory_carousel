@@ -24,9 +24,7 @@ $(document).ready(function(){
         setTimeout(function(){
             $("#right").attr("src", "./Assets/arrow-blue-right.png");
             $(".button-next").css("border", "1px solid #134880");
-       }, 300)
-
-        
+       }, 300) 
     });
     
     prev.on("click", function(){
