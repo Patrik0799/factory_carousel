@@ -1,0 +1,25 @@
+{
+  "name": "factory_carousel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpile": "babel ./js/main.js --out-file ./js/main.transpiled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patrik0799/factory_carousel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patrik0799/factory_carousel/issues"
+  },
+  "homepage": "https://github.com/Patrik0799/factory_carousel#readme",
+  "dependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2"
+  }
+}
