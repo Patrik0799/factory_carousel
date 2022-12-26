@@ -1,8 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+footer {
+    margin-top: auto;
+}
 h1 {
     font-family: "Source Sans Pro";
     color: #134880;
     font-size: 32px;
-    margin-top: -5px;
+    margin-top: 0px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -16,13 +26,32 @@ p {
 img {
     border-radius: 8px;
 }
+button {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.other_content {
+    width: 70%;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: auto;
+    background-color: #DDDDDD;
+}
+.slider_image {
+    height: 200px;
+    width: auto;
+}
 .container {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    width: 70%;
-    margin: 150px auto;
-    height: 450px;
+    max-width: 940px;
+    height: 415px;
+    margin-top: auto;
+    margin-left: auto;
 }
 .carousel {
     width: 65%;
@@ -31,58 +60,32 @@ img {
     justify-content: flex-end;
     flex-flow: row wrap;
 }
-.slider1 {
+.slider_one {
     height: 50%;
     display: flex;
     gap: 10px;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
-.item2 {
+.slider_two {
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    transition: all 0.5s;
+}
+.row_bottom {
     display: flex;
 }
 .controls {
     background-color: white;
-    height: 100%;
+    padding-left: 100px;
+    height: 200px;
     width: 20%;
     z-index: 1;
-}
-.slider2 {
-    height: 100%;
-    display: flex;
-    gap: 10px;
-    transition: all 0.3s;
-}
-.slider section {
-    height: 200px;
 }
 .lorem-ipsum {
     width: 35%;
     height: 100%;
     background-color: white;
     z-index: 1;
-}
-.button-prev {
-    border: 1px solid #134880;
-    border-radius: 5px;
-    width: 40px;
-    height: 40px;
-    margin-bottom: 10px;
-    margin-left: 105px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-.button-next {
-    border: 1px solid #134880;
-    border-radius: 5px;
-    width: 40px;
-    height: 40px;
-    margin-bottom: 10px;
-    margin-left: 105px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
 }
 
