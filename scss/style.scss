@@ -42,6 +42,10 @@ body {
     padding: 0px;
     min-height: 100vh;
 }
+header {
+    display: flex;
+    justify-content: flex-end;
+}
 .container {
     display: flex;
     flex-direction: row;
@@ -87,11 +91,20 @@ img {
     height: $gap * 20;
 }
 .other_content {
-    margin-left: auto;
-    width: 70%;
     height: $gap * 10;
     border-radius: $gap / 2;
     background-color: #DDDDDD;
+}
+.header_el_one {
+    width: 301px;
+}
+.header_el_two {
+    width: 621px;
+    margin-left: 20px;
+}
+.footer_el {
+    width: 941px;
+    margin-left: auto;
 }
 footer {
     margin-top: auto;
