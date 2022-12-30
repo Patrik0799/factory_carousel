@@ -1,0 +1,31 @@
+@mixin text-right() {
+    width: $percentage-ratio * 7;
+    height: $percentage-ratio * 20;
+    background-color: white;
+    z-index: 1;
+    h1 {
+        margin-top: 0px;
+        @extend %padding-properties;
+        font-size: 32px;
+        color: #134880;
+    }
+    p {
+        @extend %padding-properties;
+        font-size: 18px;
+        color: #484A4C;
+    }
+}
+@mixin control() {
+    padding-left: $gap * 10;
+    width: $percentage-ratio * 4;
+    height: $gap * 20;
+    background-color: white;
+    z-index: 1;
+    button {
+        margin-bottom: $gap;
+        width: $gap * 6;
+        height: $gap * 6;
+        border-radius: $gap / 2;
+        border: 1px solid #DDDDDD;
+    }
+}
